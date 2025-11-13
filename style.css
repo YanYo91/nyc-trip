@@ -1,0 +1,202 @@
+/* עיצוב כללי */
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  direction: rtl;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  background: linear-gradient(90deg, #0055a5, #003366);
+  color: white;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #0055a5;
+  border-bottom: 2px solid #0055a5;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+/* תפריט ניווט */
+nav {
+  background-color: #0055a5;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* מקטעים */
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* טבלאות */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #e6f2ff;
+  color: #003366;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* רשימת ציוד */
+#packing {
+  margin-top: 20px;
+}
+
+#personSelect {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.person {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f0f8ff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.person h3 {
+  color: #003366;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #0055a5;
+  padding-bottom: 5px;
+}
+
+.person button {
+  margin: 5px;
+  padding: 6px 12px;
+  background: #0055a5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.person button:hover {
+  background: #ff6600;
+}
+
+.packing-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.packing-list li {
+  margin: 5px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.packing-list .item-left {
+  display: flex;
+  align-items: center;
+}
+
+.packing-list .item-left label {
+  margin-left: 8px;
+}
+
+.packing-list button.del {
+  background: #ff3333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.packing-list button.del:hover {
+  background: #cc0000;
+}
+
+.new-item {
+  padding: 6px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 70%;
+}
+
+/* מעקב מסלול */
+#map {
+  height: 500px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tracking-controls {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.tracking-controls button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: #0055a5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tracking-controls button:hover {
+  background: #ff6600;
+}
+
+#history {
+  padding: 20px;
+  background: #f9f9f9;
+}
